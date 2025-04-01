@@ -1,0 +1,42 @@
+/* Global Styles */
+* {
+    box-sizing: border-box; /* Garante que padding e borda não afetem o layout */
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+}
+
+/* Container with the background image */
+.container {
+    background: url('https://i.ibb.co/9HC3Pbkk/pexels-karolina-grabowska-4475523.jpg') no-repeat center center;
+    background-size: cover; /* Garante que a imagem cubra toda a área */
+    background-position: center; /* Garantir que a imagem seja centralizada */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
